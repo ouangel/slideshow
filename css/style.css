@@ -1,3 +1,46 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
+.container {
+	width: 63.4%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.image_title {
+	text-align: center;
+}
+
+#img_display {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#img_description {
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.arrow {
+	clear: both;
+	
+}
+
+.arrow a img {
+	width: 30px;
+}
+
+#prev,
+#next {
+	cursor: pointer;
+	width: auto;
+	top: 50%;
+	position: absolute;
+	
+}
+
+#next {
+	right: 0;
+}
