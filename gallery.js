@@ -6,8 +6,8 @@ var next = document.getElementById("next");
 
 
 
-var img_arr = ["garibaldi.jpg", "machi.jpg", "beach.jpg", "angel.jpg"];
-var desc_arr = ["Garibaldi Lake", "Dog", "Kit", "Person"];
+var img_arr = ["bay.jpg", "city.jpg", "lake.jpg", "lakewithmountain.jpg"];
+var desc_arr = ["Bay", "Vancouver City", "Lake", "Lake with mountain"];
 
 var num = 0;
 img_desc.innerHTML = desc_arr[num]+"<p>";
@@ -23,6 +23,7 @@ prev.onclick = function() {
 
 	img_desc.innerHTML = desc_arr[num]+"<p>";
 	img_play.src = "gallery/" + img_arr[num];
+	// img_play.style.width = "100%";
 }
 
 next.onclick = function() {
@@ -34,6 +35,7 @@ next.onclick = function() {
 
 	img_desc.innerHTML = desc_arr[num]+"<p>";
 	img_play.src = "gallery/" + img_arr[num];
+	// img_play.style.width = "100%";
 }
 
 
